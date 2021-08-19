@@ -13,7 +13,7 @@ import cookieParser from "cookie-parser";
 import configSocketIo from "./config/socketio";
 import events from "events";
 import * as configApp from "./config/app";
-
+require('dotenv').config();
 // Init app
 let app = express();
 
